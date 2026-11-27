@@ -1,0 +1,19 @@
+# Android-specific ignore rules
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Local build caches & Gradle daemon (do NOT commit — 1.5GB+)
+/caches/
+/daemon/
+/wrapper/
+/.kotlin/
+/.tmp/
+/kotlin-profile/
